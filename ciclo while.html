@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>ciclo while</title>
+
+    </head>
+    <body>
+        <script type ="text/javascript">
+           var respuesta = "HELSINKI"; 	 	 
+var acierto = false; 	 	 
+var contador = 0;	 	 
+while(contador < 3 && acierto === false) {	 	 
+ var respUsuario = prompt("Capital de Finlandia: ");	 	 
+ if (respUsuario.toUpperCase() === respuesta) { 	 	 
+ var acierto = true; 	 	 
+ document.write("Enhorabuena, has acertado");	 	 
+ }	 	 
+ contador++;	 	 
+}	 	 
+if (!acierto) {document.write("Lo sentimos, has consumido tus 3 intentos")};
+        </script>
+    </body>
+</html>
