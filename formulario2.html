@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="html5-formulario.html" method="get" autocomplete >
+    <h3>text</h3>
+    <label form="nombre">Nombre:</label>
+    <input name="nombre" type="text" value="" readonly disabled size="40" maxlength="10" pattern="[A-Za-z]{3}" 
+    placeholder="First name">
+    <h3>radio</h3>
+    <input type="radio" name="gender" value="male" checked> Male
+    <br>
+     <input type="radio" name="gender" value="female"> female
+     <br>
+     <input type="radio" name="gender" value="other"> Other
+     <h3>Select</h3>
+     <label form="cars">cars:</label>
+     <select name="cars">
+     <option value="volvo">volvo</option>
+     <option value="saab">Saab</option>
+     <option value="fiat">Fiat</option>
+     <option value="Audi">Audi</option>
+     </select>
+     <h3>textures</h3>
+     <textarea name="message" cols="30" rows="10">
+         The cat was-palying in the garden.
+     </textarea>
+     <h3>detalist</h3>
+     <label form="nombre">Navegador:</label>
+     <input list="browsers">
+     <details id="browsers">
+     <option value="Internet explore">
+     <option value="FireFox">
+     <option value="Chrome">
+     <option value="Opera">
+     <option value="safari">
+     </details>
+     <h3>password</h3>
+     <label form="password">Keyword:</label>
+     <input type="password" name="psw" required>
+     <h3>checkbox</h3>
+     <input type="checkbox" name="vehicule1" value="bike"> I have a bike <br>
+     <input type="checkbox" name="vehicule2" value="car"> I have car
+     <H3>Color</H3>
+     <label form="color">Color:</label>
+     <input type="color" name="favcolor">
+     <h3>Fecha</h3>
+     <label form="date">Fecha: </label>
+     <input type="date" name="bday" min="2000-01-02">
+     <h3>datatime</h3>
+     <label form="datetime-">datetime:</label>
+     <input type="datetime-local" name="bdaytime">
+     <h3>Email</h3>
+     <label form="email">Email:</label>
+     <input type="email" name="email" autocomplete="off">
+     <h3>number</h3>
+     <label form="number">numero:</label>
+     <input type="number" name="quantity" min="1" max="25" step="3">
+     <h3>Points</h3>
+     <label form="points">numero desde y hasta:</label>
+     <input type="number" name="points" min="0" max="100" step="10" value="30">
+     <h3>range</h3>
+     <label form="range">rango:</label>
+     <input type="range" name="points" min="0" max="10">
+     <h3>search</h3>
+     <label form="search">Search;</label>
+     <input type="search" name="googlesearch">
+     <h3>time</h3>
+     <label for="time">Hora:</label>
+     <input type="time" name="usr_time">
+     <h3>week</h3>
+     <label form="week">Semana año:</label>
+     <input type="week" name="week_year">
+     <h3>file</h3>
+     <label form="fichero">Ficheros:</label>
+     <input type="file" name="img" multiple>
+     <br> <br>
+     <input type="submit" value="submit">
+    </form>
+</body>
+</html>
